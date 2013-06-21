@@ -1,5 +1,3 @@
-// Author: Arnar Yngvason
-// Email: arnar1@gmail.com
 (function($) {
     function clone(obj){
         if(obj === null || typeof(obj) != 'object') {return obj;}
