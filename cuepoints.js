@@ -4,7 +4,7 @@
         var _cuepoints = {};
 
         function _reset() {
-            _cuepoints = $.extend({}, cuepoints);
+            _cuepoints = $.extend({}, cuepoints); // Copy object
         }
         _reset();
 
